@@ -2,7 +2,8 @@
   <div class="products">
     <h1>Liste des produits</h1>
   </div>
-    <ProductsComp product_name={{ $route.params.product_id }}/>
+    {{ $route.params.product_id }}
+    <ProductsComp product_name="item"/>
 </template>
 
 <script>
